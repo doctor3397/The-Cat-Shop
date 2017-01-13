@@ -71,8 +71,8 @@ section {
 
 #products {
 	background-color: #F2F2F2;
-	margin-top: -24px; 
-	padding-bottom: 750px; 
+	margin-top: -24px;  
+	overflow: hidden; 
 }
 
 #products p {
@@ -80,10 +80,11 @@ section {
 }
 
 #products li {
-	width: 33%; 
+	width: 32%; 
+	padding: 1px; 
 	float: left;
 	list-style: none; 
-/*	overflow: hidden; */
+	overflow: hidden; 
 }
 
 #cat-pics{
